@@ -1,24 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import HeaderBar from "./components/Header/HeaderBar";
+import { Box } from "@mui/material";
+import background from "./components/assests/background.svg";
+import HeroSection from "./components/HeroSection/HeroSection";
+import Footer from "./components/Footer/Footer";
+import Staking from "./components/Staking/Staking";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Box
+        sx={{
+          backgroundColor: "#00052C",
+          backgroundImage: `url(${background})`,
+          backgroundSize: "100%  100%",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}
+      >
+        <HeaderBar />
+        <Routes>
+          <Route path="/" element={<HeroSection />} />
+        </Routes>
+        <Routes>
+          <Route path="/Staking" element={<Staking />} />
+        </Routes>
+        <Footer />
+      </Box>
+    </BrowserRouter>
   );
 }
 
