@@ -193,13 +193,13 @@ export default function BasicTabs() {
                     color: "#ffffff",
                     fontSize: "12px",
                     fontFamily: "Poppins",
+                    mt: { xs: "0px", md: "-5px" },
                   }}
                 >
                   To
                 </Typography>
-                <Box>
-                  <img src={stackingArrow} alt="" />
-                </Box>
+
+                <img src={stackingArrow} alt="" />
               </Box>
               <Box
                 sx={{

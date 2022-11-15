@@ -45,9 +45,21 @@ const Staking = () => {
                 alignItem: "center",
                 justifyContent: "space-between",
                 flexDirection: { xs: "column", md: "row" },
+                mb: 2,
               }}
             >
-              <Box sx={{ my: 6 }}>
+              <Box
+                sx={{
+                  my: 4,
+                  top: 0,
+                  "&:hover": {
+                    top: "-30px",
+
+                    position: "relative",
+                    transition: "top ease 0.5s",
+                  },
+                }}
+              >
                 <Box
                   sx={{
                     position: "relative",
@@ -78,6 +90,10 @@ const Staking = () => {
                         "polygon(76% 0, 100% 31%, 100% 100%, 0 100%, 0 0)",
                       clipPath:
                         "polygon(88% 0, 100% 14%, 100% 100%, 0 100%, 0 0)",
+                      "&:hover": {
+                        background: "#44329B",
+                        cursor: "pointer",
+                      },
                     }}
                   >
                     <Typography
@@ -107,7 +123,18 @@ const Staking = () => {
                   </Box>
                 </Box>
               </Box>
-              <Box sx={{ my: 3 }}>
+              <Box
+                sx={{
+                  my: 4,
+                  top: 0,
+                  "&:hover": {
+                    top: "-30px",
+
+                    position: "relative",
+                    transition: "top ease 0.5s",
+                  },
+                }}
+              >
                 <Box
                   sx={{
                     position: "relative",
@@ -132,11 +159,15 @@ const Staking = () => {
                       left: "1px",
                       right: "1px",
                       bottom: "1px",
-                      background: "#44329B",
+                      background: "#070B3E",
                       WebkitClipPath:
                         "polygon(76% 0, 100% 31%, 100% 100%, 0 100%, 0 0)",
                       clipPath:
                         "polygon(88% 0, 100% 14%, 100% 100%, 0 100%, 0 0)",
+                      "&:hover": {
+                        background: "#44329B",
+                        cursor: "pointer",
+                      },
                     }}
                   >
                     <Typography
@@ -166,7 +197,18 @@ const Staking = () => {
                   </Box>
                 </Box>
               </Box>
-              <Box sx={{ my: 6 }}>
+              <Box
+                sx={{
+                  my: 4,
+                  top: 0,
+                  "&:hover": {
+                    top: "-30px",
+
+                    position: "relative",
+                    transition: "top ease 0.5s",
+                  },
+                }}
+              >
                 <Box
                   sx={{
                     position: "relative",
@@ -197,6 +239,10 @@ const Staking = () => {
                         "polygon(76% 0, 100% 31%, 100% 100%, 0 100%, 0 0)",
                       clipPath:
                         "polygon(88% 0, 100% 14%, 100% 100%, 0 100%, 0 0)",
+                      "&:hover": {
+                        background: "#44329B",
+                        cursor: "pointer",
+                      },
                     }}
                   >
                     <Typography

@@ -181,6 +181,10 @@ const HeroSection = () => {
                     alignItems: "center",
                     justifyContent: "center",
                     fontWeight: 700,
+                    "&:hover": {
+                      background: "#42319B",
+                      cursor: "pointer",
+                    },
                   }}
                 >
                   Yes
@@ -197,6 +201,10 @@ const HeroSection = () => {
                     alignItems: "center",
                     justifyContent: "center",
                     fontWeight: 700,
+                    "&:hover": {
+                      background: "#42319B",
+                      cursor: "pointer",
+                    },
                   }}
                 >
                   No
@@ -213,6 +221,10 @@ const HeroSection = () => {
                     alignItems: "center",
                     justifyContent: "center",
                     fontWeight: 700,
+                    "&:hover": {
+                      background: "#42319B",
+                      cursor: "pointer",
+                    },
                   }}
                 >
                   Abstain
@@ -220,7 +232,6 @@ const HeroSection = () => {
                 <Box
                   sx={{
                     border: "1px solid  rgba(111, 100, 255, 0.45)",
-                    background: "#42319B",
                     fontWeight: 700,
                     color: "#ffffff",
                     width: { xs: "100%", md: "400px" },
@@ -229,6 +240,10 @@ const HeroSection = () => {
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
+                    "&:hover": {
+                      background: "#42319B",
+                      cursor: "pointer",
+                    },
                   }}
                 >
                   Vote

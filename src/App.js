@@ -7,6 +7,7 @@ import HeroSection from "./components/HeroSection/HeroSection";
 import Footer from "./components/Footer/Footer";
 import Staking from "./components/Staking/Staking";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import TBlocks from "./components/Footer/TBlocks";
 
 function App() {
   return (
